@@ -1,0 +1,60 @@
+body{
+    background: #cccccc
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    color:white;
+}
+ 
+  
+a{
+    text-decoration: none;
+    color: red;
+}
+#header{
+    background:slategray;
+    color:white;
+    text-align:left;
+    height: 80px;
+    padding-top: 5px ;
+}
+#contents{
+    padding: 10px;
+    background: url(edu.jpg );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:500px;
+ } 
+#main{
+    width: 600px;
+    float:right;
+}
+#nav{
+    float:left;
+    width: 180px;
+}
+#nav .selected{
+    font-weight: bold;
+    color: crimson;
+}
+#nav ul{
+list-style-type:none;
+text-decoration-color: crimson
+ 
+}
+#nav li{
+    font-size: 20px;
+    padding: 20px:
+}
+aside#sidebar{
+    width: 30%;
+    float: left;
+}
+#footer{
+    clear: both;
+    float: right;
+    background: sienna;;
+    color: blanchedalmond;
+    padding: 0;
+    height:50px;
